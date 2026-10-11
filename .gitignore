@@ -1,1 +1,6 @@
 .venv/
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore the specific database file inside data_storage folder
+data_storage/medallion.db
